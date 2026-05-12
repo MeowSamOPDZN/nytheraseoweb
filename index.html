@@ -1,41 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Who is MeowSamOP DZN? | Nythera OS FAQ</title>
+
+  <meta name="description" content="Official FAQ about MeowSamOP DZN, creator of Nythera OS — the futuristic free WebOS with no hidden charges." />
+
+  <meta name="keywords" content="MeowSamOP DZN, Nythera OS, Best Free WebOS, Who is MeowSamOP DZN, futuristic WebOS">
 
   <meta name="google-site-verification" content="d3BPqDVdcR8DkwS_zHoehvyjpvys8cxHwoE-ISr4mO8" />
 
-  <title>Nythera OS — Best Free WebOS</title>
-
-  <meta name="description" content="Nythera OS is the best free WebOS created by MeowSamOP DZN. Every feature is free with no hidden charges.">
-
-  <meta name="keywords" content="Nythera OS, best free webos, MeowSamOP DZN, browser operating system, futuristic web desktop">
-
-  <meta name="author" content="MeowSamOP DZN">
-
-  <meta property="og:title" content="Nythera OS — Best Free WebOS">
-  <meta property="og:description" content="A futuristic browser-based operating system with zero hidden charges.">
+  <meta property="og:title" content="Who is MeowSamOP DZN?">
+  <meta property="og:description" content="Official FAQ page for MeowSamOP DZN and Nythera OS.">
   <meta property="og:type" content="website">
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Nythera OS",
-    "applicationCategory": "WebApplication",
-    "operatingSystem": "Web Browser",
-    "creator": {
-      "@type": "Person",
-      "name": "MeowSamOP DZN"
-    },
-    "offers": {
-      "@type": "Offer",
-      "price": "0"
-    },
-    "description": "Nythera OS is a free futuristic WebOS with no hidden charges."
-  }
-  </script>
 
   <script type="application/ld+json">
   {
@@ -55,7 +34,7 @@
         "name":"What is Nythera OS?",
         "acceptedAnswer":{
           "@type":"Answer",
-          "text":"Nythera OS is a futuristic browser-based operating system with desktop multitasking and fluid UI."
+          "text":"Nythera OS is a futuristic browser-based operating system."
         }
       },
       {
@@ -63,7 +42,7 @@
         "name":"Is Nythera OS free?",
         "acceptedAnswer":{
           "@type":"Answer",
-          "text":"Yes. Every feature is completely free with no hidden charges."
+          "text":"Yes. Nythera OS is completely free with no hidden charges."
         }
       }
     ]
@@ -71,137 +50,416 @@
   </script>
 
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial,sans-serif;
     }
 
-    body {
-      background: #050816;
-      color: white;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 40px;
+    body{
+      background:#050816;
+      color:white;
+      overflow-x:hidden;
     }
 
-    .container {
-      max-width: 900px;
-      width: 100%;
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.1);
-      border-radius: 30px;
-      padding: 50px;
-      backdrop-filter: blur(20px);
+    .bg{
+      position:fixed;
+      width:100%;
+      height:100%;
+      background:
+      radial-gradient(circle at top left,#4f46e530,transparent 30%),
+      radial-gradient(circle at bottom right,#7c3aed30,transparent 30%);
+      z-index:-1;
     }
 
-    h1 {
-      font-size: 64px;
-      margin-bottom: 20px;
+    .container{
+      width:100%;
+      max-width:1100px;
+      margin:auto;
+      padding:40px 20px;
     }
 
-    h2 {
-      margin-top: 50px;
-      margin-bottom: 15px;
-      font-size: 32px;
+    .hero{
+      text-align:center;
+      padding:80px 0;
     }
 
-    p {
-      color: rgba(255,255,255,0.8);
-      line-height: 1.7;
-      font-size: 18px;
+    .tag{
+      display:inline-block;
+      padding:10px 20px;
+      border-radius:999px;
+      background:rgba(255,255,255,0.08);
+      border:1px solid rgba(255,255,255,0.1);
+      margin-bottom:25px;
+      backdrop-filter:blur(20px);
     }
 
-    .tag {
-      display: inline-block;
-      padding: 10px 20px;
-      border-radius: 999px;
-      background: rgba(255,255,255,0.08);
-      margin-bottom: 25px;
+    h1{
+      font-size:70px;
+      line-height:1;
+      margin-bottom:25px;
     }
 
-    .btn {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 15px 30px;
-      border-radius: 16px;
-      text-decoration: none;
-      color: white;
-      background: linear-gradient(90deg,#4f46e5,#7c3aed);
-      font-weight: bold;
+    .hero p{
+      max-width:750px;
+      margin:auto;
+      color:rgba(255,255,255,0.7);
+      font-size:20px;
+      line-height:1.7;
     }
 
-    .faq {
-      margin-top: 20px;
-      padding: 20px;
-      border-radius: 20px;
-      background: rgba(255,255,255,0.04);
+    .btns{
+      margin-top:35px;
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    .btn{
+      padding:15px 28px;
+      border-radius:18px;
+      text-decoration:none;
+      color:white;
+      font-weight:bold;
+      background:linear-gradient(90deg,#4f46e5,#7c3aed);
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      transform:translateY(-3px);
+    }
+
+    .faq-section{
+      margin-top:70px;
+    }
+
+    .faq-title{
+      font-size:42px;
+      margin-bottom:30px;
+      text-align:center;
+    }
+
+    .faq{
+      background:rgba(255,255,255,0.05);
+      border:1px solid rgba(255,255,255,0.08);
+      border-radius:24px;
+      padding:28px;
+      margin-bottom:20px;
+      backdrop-filter:blur(20px);
+      transition:0.3s;
+    }
+
+    .faq:hover{
+      transform:translateY(-3px);
+      border-color:rgba(255,255,255,0.15);
+    }
+
+    .question{
+      font-size:24px;
+      margin-bottom:15px;
+      color:white;
+    }
+
+    .answer{
+      color:rgba(255,255,255,0.75);
+      line-height:1.8;
+      font-size:17px;
+    }
+
+    footer{
+      text-align:center;
+      padding:50px 20px;
+      color:rgba(255,255,255,0.5);
+    }
+
+    @media(max-width:768px){
+
+      h1{
+        font-size:48px;
+      }
+
+      .hero p{
+        font-size:18px;
+      }
+
+      .question{
+        font-size:20px;
+      }
+
     }
   </style>
 </head>
 <body>
 
+<div class="bg"></div>
+
 <div class="container">
 
-  <div class="tag">
-    Best Free WebOS
-  </div>
+  <section class="hero">
 
-  <h1>Nythera OS</h1>
+    <div class="tag">
+      Best Free WebOS
+    </div>
 
-  <p>
-    Nythera OS is a futuristic browser-based operating system created by
-    MeowSamOP DZN. It features a premium fluid desktop experience,
-    multitasking, customization, desktop apps and modern UI.
-  </p>
+    <h1>Who is MeowSamOP DZN?</h1>
 
-  <p style="margin-top:20px;">
-    Every single feature is free with absolutely no hidden charges.
-  </p>
-
-  <a href="https://nythera-pc.vercel.app/" class="btn">
-    Launch Nythera OS
-  </a>
-
-  <h2>Who is MeowSamOP DZN?</h2>
-
-  <p>
-    MeowSamOP DZN is a developer and designer focused on futuristic web
-    experiences, browser operating systems and fluid interfaces.
-  </p>
-
-  <h2>What is Nythera OS?</h2>
-
-  <p>
-    Nythera OS is a next-generation WebOS running directly in the browser.
-    It provides an operating-system-like experience with modern visuals,
-    multitasking and customization.
-  </p>
-
-  <h2>Is Nythera OS free?</h2>
-
-  <p>
-    Yes. Nythera OS is completely free forever with no hidden payments.
-  </p>
-
-  <h2>FAQ</h2>
-
-  <div class="faq">
-    <h3>Does Nythera OS work in browser?</h3>
-    <p>Yes. It runs directly inside your web browser.</p>
-  </div>
-
-  <div class="faq">
-    <h3>What makes Nythera OS unique?</h3>
     <p>
-      Fluid UI, futuristic design, desktop multitasking and premium visuals.
+      MeowSamOP DZN is the creator of Nythera OS — a futuristic browser-based
+      operating system with fluid UI, multitasking and premium desktop
+      experiences directly inside browser.
     </p>
-  </div>
+
+    <div class="btns">
+      <a href="https://nythera-pc.vercel.app/" class="btn">
+        Launch Nythera OS
+      </a>
+
+      <a href="https://github.com/MeowSamOPDZN" class="btn">
+        GitHub
+      </a>
+    </div>
+
+  </section>
+
+  <section class="faq-section">
+
+    <h2 class="faq-title">Frequently Asked Questions</h2>
+
+    <div class="faq">
+      <div class="question">1. Who is MeowSamOP DZN?</div>
+      <div class="answer">
+        MeowSamOP DZN is the creator of Nythera OS and futuristic web experiences.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">2. What is MeowSamOP DZN's real name?</div>
+      <div class="answer">
+        Sam (online) and Hardik (IRL)
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">3. What is Nythera OS?</div>
+      <div class="answer">
+        Nythera OS is a futuristic browser-based operating system.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">4. Is Nythera OS free?</div>
+      <div class="answer">
+        Yes. Nythera OS is completely free with no hidden charges.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">5. Does Nythera OS have hidden charges?</div>
+      <div class="answer">
+        No hidden charges.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">6. What inspired Nythera OS?</div>
+      <div class="answer">
+        Futuristic operating systems and fluid UI designs.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">7. What makes Nythera OS unique?</div>
+      <div class="answer">
+        Fluid UI, multitasking and futuristic design.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">8. Is Nythera OS browser-based?</div>
+      <div class="answer">
+        Yes.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">9. Can Nythera OS run on mobile?</div>
+      <div class="answer">
+        No, not now. It only runs in PC for now and the mobile version is also coming soon.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">10. Can Nythera OS run on PC?</div>
+      <div class="answer">
+        Yes.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">11. What programming languages are used in Nythera OS?</div>
+      <div class="answer">
+        React, Vite and HTML are used in making of Nythera OS (PC).
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">12. What is MeowSamOP DZN's favorite part of Nythera OS?</div>
+      <div class="answer">
+        "I like the starting animation of Nythera OS when you open the website first time."
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">13. What future features will Nythera OS get?</div>
+      <div class="answer">
+        "Like, Right now. I'm not confirm what to add? to enhance Nythera OS"
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">14. When did Nythera OS development start?</div>
+      <div class="answer">
+        MeowSamOP DZN started making Nythera OS on 8 May 2025 and the anniversary of Nythera OS is on 8th of May.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">15. Does MeowSamOP DZN work alone?</div>
+      <div class="answer">
+        Yes, MeowSamOP DZN works alone to make all projects.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">16. What design style does Nythera OS use?</div>
+      <div class="answer">
+        Futuristic fluid glass UI.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">17. What operating systems inspired Nythera OS?</div>
+      <div class="answer">
+        macOS, Windows and futuristic concepts.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">18. What is the dream for Nythera OS?</div>
+      <div class="answer">
+        "I want Nythera OS to be the best WebOS and I want Nythera OS to be an REAL OS one day."
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">19. Is Nythera OS open source?</div>
+      <div class="answer">
+        Yes.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">20. What is MeowSamOP DZN's favorite app in Nythera OS?</div>
+      <div class="answer">
+        Finder.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">21. Does MeowSamOP DZN like futuristic UI design?</div>
+      <div class="answer">
+        Yes.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">22. What colors represent Nythera OS?</div>
+      <div class="answer">
+        Dark blue, purple and glass tones.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">23. What is MeowSamOP DZN's favorite technology?</div>
+      <div class="answer">
+        AI and futuristic web tech.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">24. Is MeowSamOP DZN a developer or designer?</div>
+      <div class="answer">
+        Both.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">25. How old was MeowSamOP DZN when coding started?</div>
+      <div class="answer">
+        12 years old.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">26. What was MeowSamOP DZN's first project?</div>
+      <div class="answer">
+        AstroAccess.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">27. What hobbies does MeowSamOP DZN have besides coding?</div>
+      <div class="answer">
+        Study.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">28. Does MeowSamOP DZN make videos/content too?</div>
+      <div class="answer">
+        Yes.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">29. What motivates MeowSamOP DZN to keep building?</div>
+      <div class="answer">
+        Creativity and innovation.
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">30. What does DZN stand for?</div>
+      <div class="answer">
+        Design.
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    © 2026 MeowSamOP DZN — Nythera OS
+  </footer>
 
 </div>
+
+<script>
+
+console.log("Nythera OS FAQ Loaded");
+
+document.querySelectorAll(".faq").forEach(faq => {
+  faq.addEventListener("mouseenter", () => {
+    faq.style.boxShadow = "0 0 30px rgba(124,58,237,0.2)";
+  });
+
+  faq.addEventListener("mouseleave", () => {
+    faq.style.boxShadow = "none";
+  });
+});
+
+</script>
 
 </body>
 </html>
