@@ -1,8 +1,6 @@
 {
   "version": 2,
 
-  "name": "nytheraseoweb",
-
   "cleanUrls": true,
   "trailingSlash": false,
 
@@ -30,18 +28,26 @@
     }
   ],
 
-  "rewrites": [
+  "routes": [
     {
-      "source": "/",
-      "destination": "/index.html"
+      "src": "/sitemap.xml",
+      "headers": {
+        "Content-Type": "application/xml"
+      },
+      "dest": "/sitemap.xml"
     },
+
     {
-      "source": "/robots.txt",
-      "destination": "/robots.txt"
+      "src": "/robots.txt",
+      "headers": {
+        "Content-Type": "text/plain"
+      },
+      "dest": "/robots.txt"
     },
+
     {
-      "source": "/sitemap.xml",
-      "destination": "/sitemap.xml"
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
