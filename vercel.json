@@ -1,19 +1,9 @@
 {
-  "routes": [
+  "version": 2,
+  "builds": [
     {
-      "src": "/sitemap.xml",
-      "dest": "/sitemap.xml"
-    },
-    {
-      "src": "/robots.txt",
-      "dest": "/robots.txt"
-    },
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "src": "**/*",
+      "use": "@vercel/static"
     }
   ]
 }
